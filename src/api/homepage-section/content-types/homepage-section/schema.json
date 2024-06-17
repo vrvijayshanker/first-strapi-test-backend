@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "homepage_sections",
+  "info": {
+    "singularName": "homepage-section",
+    "pluralName": "homepage-sections",
+    "displayName": "HomepageSection",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HomeCarousel": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-sections.carousel-images"
+    },
+    "Header": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-sections.header-custom"
+    },
+    "Nav": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page-sub-sections.nav-menu"
+    },
+    "abouttest": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page-sections.about-section"
+    }
+  }
+}

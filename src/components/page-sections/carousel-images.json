@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_page_sections_carousel_images",
+  "info": {
+    "displayName": "CarouselImages",
+    "icon": "emotionHappy",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ImageTitle": {
+      "type": "string"
+    },
+    "CarouselImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "imgurl": {
+      "type": "string"
+    }
+  }
+}

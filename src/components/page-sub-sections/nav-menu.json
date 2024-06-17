@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_page_sub_sections_nav_menus",
+  "info": {
+    "displayName": "NavMenu"
+  },
+  "options": {},
+  "attributes": {
+    "NavItem": {
+      "type": "string"
+    },
+    "NavLink": {
+      "type": "string"
+    }
+  }
+}
